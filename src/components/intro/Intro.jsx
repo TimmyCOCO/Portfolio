@@ -15,11 +15,14 @@ function Intro() {
               <div className="i-title-item">Web Developer</div>
               <div className="i-title-item">Full Stack Developer</div>
               <div className="i-title-item">API Designer</div>
+              <div className="i-title-item">Database Administrator</div>
+              <div className="i-title-item">System Administrator</div>
             </div>
           </div>
 
           <p className="i-desc">
-            I design and develop modern web-based applications.
+            I design and develop modern web-based applications integrated 
+            with popular databases
           </p>
 
         </div>
