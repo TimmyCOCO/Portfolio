@@ -24,8 +24,6 @@ const ProductList = () => {
 
                 </div>
 
-                <hr />
-
                 <div className='more'>
                     <p>And More ...<a href='https://github.com/TimmyCOCO' target='_blank'>On My GitHub</a>
                     </p>

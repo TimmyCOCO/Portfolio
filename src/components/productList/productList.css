@@ -1,4 +1,4 @@
-.pl{
+.pl {
     padding: 50px 100px;
     display: flex;
     flex-direction: column;
@@ -6,26 +6,41 @@
     text-align: center;
 }
 
-.pl-texts{
+.pl-texts {
     width: 65%;
 }
 
-.pl-title{
+.pl-title {
     font-size: 50px;
     font-weight: 600;
 }
 
-.pl-desc{
+.pl-desc {
     margin: 20px 0px
 }
 
-.pl-list{
+.pl-list {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.more{
+.more {
     font-size: 25px;
+}
+
+/* Responsive */
+@media screen and (max-width: 480px) {
+    .pl {
+        padding: 10px;
+    }
+
+    .pl-texts {
+        width: 100%;
+    }
+
+    .pl-desc{
+       display: none;
+    }
 }

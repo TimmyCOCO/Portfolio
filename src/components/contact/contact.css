@@ -1,5 +1,5 @@
 .c {
-    height: 70vh;
+    height: 60vh;
     position: relative;
 }
 
@@ -76,7 +76,7 @@ textarea {
     padding-left: 10px
 }
 
-button{
+button {
     width: 80px;
     border: none;
     padding: 10px;
@@ -84,11 +84,51 @@ button{
     font-weight: 500;
     color: white;
     cursor: pointer;
+    border-radius: 20px;
 }
 
-a{
+a {
     text-decoration: none;
     color: rgb(80, 122, 170);
     display: flex;
     align-items: center;
+}
+
+/* Responsive */
+@media screen and (max-width:480px) {
+    .c {
+        height: 80vh;
+        position: relative;
+    }
+    
+    .c-wrapper {
+        flex-direction: column;
+        padding: 0 51px;
+    }
+
+    .c-title {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .c-info-item {
+        margin: 20px 0px;
+        width: 100%;
+    }
+
+    .c-desc {
+        display: none;
+    }
+
+    form {
+        margin-top: 0px;
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+    }
+
+    input {
+        width: 60%;
+        height: 40px;
+        margin: 5px
+    }
 }
